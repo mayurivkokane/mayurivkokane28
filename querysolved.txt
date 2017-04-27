@@ -1,0 +1,2 @@
+select c.CustomerID,c.FirstName,c.LastName,c.City,c.Country,c.Phone,o.id,o.OrderDate,o.OrderNumber,o.TotalAmount
+ from Customer c,order1 o where c.CustomerID=o.CustomerID;
